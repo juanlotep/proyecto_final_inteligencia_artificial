@@ -81,19 +81,23 @@ A.Por medio de bucles:
 *Ilustración 8. MCC variando C.*
 
 Se obtuvo la matriz de confusión:
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935455-1aa5655b-a04c-4c61-85ef-241f55e53ccc.png)
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935485-7f6ececb-d536-477f-9aac-b0025afee33d.png)
 *Tabla 2. Matriz de confusión junto con metricas como coeficiente de Matthews y accuracy, para el método máquinas de soporte*
 
 B. Por medio de GridSearch:
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935534-d0f0d150-c86b-470a-bd39-825635a1d440.png)
 *Tabla 3. Mejores hiperparámetros para máquinas de soporte vectorial, por medio de la búsqueda de GridSearch.*
 
 Se obtuvo la matriz de confusión:
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935593-cab6b3d1-210a-4604-89fa-c4a9fd9218e7.png)
 *Tabla 4. Matriz de confusión para el método máquinas de soporte, por medio de la búsqueda de GridSearch. *
 
 -	OneVsOneClassifier:
+-	
 Se obtuvo la matriz de confusión junto con metricas tales como el coeficiente de correlación de matthews junto con el accuracy.
 
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935684-79bbb0ee-db71-4d4b-b66a-b8bfabe3d5a0.png)
@@ -119,7 +123,9 @@ Teniendo esto en cuenta, se obtuvo los siguientes resultados:
 Para la pseudoinversa de moore-penrose, se concatenó a la matriz de entrada, una columna de unos “1”, además de esto se estableció como salida el valor de las casas, y se realizó la ecuación [1] mostrada en el apartado de sección de desarrollo, como se muestra a continuación:
 
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935866-c7c8d1bf-5be9-4b02-889a-8ff776388ac4.png)
+
 Teniendo esto en cuenta, se obtuvo los siguientes resultados, los cuales se pueden comparar claramente con las salidas del dataset:
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935896-2cad59db-d1ab-4b09-8c06-d64c17789c71.png)
 *Ilustración 10. Salida del dataset.*
 
@@ -127,12 +133,14 @@ Teniendo esto en cuenta, se obtuvo los siguientes resultados, los cuales se pued
 *Ilustración 11. Resultados de la función de hipotesis.*
 
 Además de esto, se presenta el coeficiente de correlación obtenido con el presente método:
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935951-5489ce6c-83f8-4bec-9a3a-9924fbbc100d.png)
 *Ilustración 12. Coeficiente de correlación.*
 
 -	Redes neuronales, modelo de perceptrón multicapa totalmente conectado:
 Para redes neuronales, se realizó el método con y sin usar PCA, con el fin de contrarrestar los resultados, los cuales fueron:
 A. Sin PCA:
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935997-5ae4530c-335e-4309-94b8-9f4e31271914.png)
 *Ilustración 13. Conjunto de entrenamiento.*
 
@@ -140,10 +148,12 @@ A. Sin PCA:
 *Ilustración 14. Predicción de hipotesis*
 
 se presenta el coeficiente de correlación obtenido con el presente método:
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202936043-580986e8-2756-4cce-8ea8-c4168e62c72e.png)
 *Ilustración 15. Coeficiente de correlación en conjunto de entrenamiento y validación*
 
 B. Con PCA: Cabe mencionar que se utilizó las componentes principales mencionadas al inicio del presente informe. 
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202936074-26bb76e5-3b8e-4ca8-ac3b-ec6036a87ea1.png)
 *Ilustración 16. Conjunto de entrenamiento *
 
