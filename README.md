@@ -111,10 +111,12 @@ Se obtuvo la matriz de confusión junto con metricas tales como el coeficiente d
 
 -	Knn:
 Para Knn se varió el hiperparámetro k, tal y como se observa en la siguiente figura, teniendo como métrica el accuracy:
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935781-e86c5488-3abb-43f8-86d6-3779cd221325.png)
 *Ilustración 9. Accuracy variando K.*
 
 Teniendo esto en cuenta, se obtuvo los siguientes resultados:
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202935801-3792b4a8-9be3-49f2-8781-e760452045a5.png)
 *Tabla 7. Matriz de confusión para el método Knn, junto con metricas como coeficiente de Matthews y accuracy.*
 
@@ -158,6 +160,7 @@ B. Con PCA: Cabe mencionar que se utilizó las componentes principales mencionad
 *Ilustración 16. Conjunto de entrenamiento *
 
 Dicho esto, los resultados fueron:
+
 ![Texto alternativo](https://user-images.githubusercontent.com/101753582/202936109-eaad1952-fd9d-4a36-80d1-704690e4c07e.png)
 *Ilustración 17. Coeficiente de correlación en conjunto de entrenamiento y validación*
 
